@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8F4DC;
+    font-family: 'Lora', "Playfair Display", serif;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    background-color: #728156;
+    margin: 10px auto; 
+    border-radius: 50px;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #E8F4DC;
+}
+
+.pages-link {
+    position: relative;
+    display: flex;
+}
+
+.pages-link ul {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+.pages-link ul li {
+    padding: 6px;
+}
+
+.pages-link a {
+    text-decoration: none;
+    color: #E8F4DC;
+    padding: 0 6px;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: color 0.3s, background-color 0.3s, font-weight 0.3s, filter 0.3s;
+}
+
+.pages-link a:hover,
+.pages-link a:active {
+    background-color: #E8F4DC;
+    color: #728156;
+    border-radius: 50px;
+    padding: 2px 6px;
+    font-weight: bold;
+    backdrop-filter: blur(10px); 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.pages-link:hover ul li a {
+    filter: blur(1.5px); 
+}
+
+.pages-link ul li a:hover{
+    filter: none; 
+}
+
+.Navbar-Account{
+    display: flex;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+
+
+.cart-button{
+    color: #E8F4DC;
+    border: none;
+    background: transparent; 
+    cursor: pointer; 
+    outline: none; 
+    box-shadow: none;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    font-size: 28px; 
+    padding: 4px; 
+    margin: 0px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; 
+    height: auto; 
+    
+}
+
+.cart-button:hover,
+.cart-button:active {
+    background-color: #E8F4DC; 
+    color: #728156; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    backdrop-filter: blur(10px); 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.account-button {
+    color: #E8F4DC;
+    padding: 0;
+    border: none;
+    background: transparent; 
+    cursor: pointer;
+    outline: none; 
+    box-shadow: none;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-size: 28px; 
+    padding: 4px; 
+    margin: 0px 6px;
+}
+.account-button:hover,
+ .account-button:active {
+    background-color: #E8F4DC;
+    border-radius: 10px;
+    color: #728156; 
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
