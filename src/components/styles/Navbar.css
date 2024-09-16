@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* color #728156 dark green  */
+
+/* color #E8F4DC light green white  */
+body{
+    background-color: #E8F4DC;
+    font-family: 'Lora', "Playfair Display", serif;
+}
+.main-navbar{
+    display: flex;
+    width: 90%;
+    height: 80px;
+    background-color: #728156;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size:16px;
+    color: #E8F4DC ;
+}
+
+
+
