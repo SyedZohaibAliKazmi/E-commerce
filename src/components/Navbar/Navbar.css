@@ -15,6 +15,8 @@ body {
   width: 90%;
   height: 60px;
   background-color: #728156;
+  /* backdrop-filter: blur(40px);
+  box-shadow: 0,0,0,.5; */
   margin: 10px auto;
   border-radius: 50px;
   position: relative;
@@ -85,6 +87,7 @@ body {
   border-radius: 10px;
   font-size: 28px;
   padding: 4px;
+  position: relative;
 }
 
 .cart-button:hover,
@@ -96,6 +99,22 @@ body {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cart-badge{
+  background-color: red;
+  color: white;
+  border-radius: 50%; 
+  padding: 4px 7px; 
+  font-size: 12px; 
+  font-weight: 900;
+  position: absolute;
+  top: -8px; 
+  right: -10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 /* Responsive Menu */
@@ -197,6 +216,7 @@ body {
   }
   .pages-link {
     top: 46px;
+    width: 160px;
     min-height: auto;
   }
   .pages-link a {
